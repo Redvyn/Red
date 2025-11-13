@@ -1,4 +1,4 @@
-if game.PlaceId == 27742093697776 then
+if game.PlaceId == 127742093697776 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Redvyn/Red/refs/heads/main/PlantsVsBrainrots"))()
 elseif game.PlaceId == 920587237 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Redvyn/Red/refs/heads/main/AdoptMe"))()
