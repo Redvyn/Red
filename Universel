@@ -8,7 +8,7 @@ else
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Game Not Supported",
     Text = "Supported Game:\nSteal a Brainrot\nPlants Vs Brainrots\nAdopt ME",
-    Duration = math.huge
+    Duration = 1e9
 })
     game.Players.LocalPlayer:Kick("Game not Supported")
 end
