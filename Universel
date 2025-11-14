@@ -5,5 +5,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Redvyn/Red/refs/heads
 elseif game.PlaceId == 96342491571673 or game.PlaceId == 109983668079237 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Redvyn/Red/refs/heads/main/StealABrainrots"))()
 else
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Game Not Supported",
+    Text = "Supported Game:\nSteal a Brainrot\nPlants Vs Brainrots\nAdopt ME",
+    Duration = math.huge
+})
     game.Players.LocalPlayer:Kick("Game not Supported")
 end
