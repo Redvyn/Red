@@ -7,8 +7,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Redvyn/Red/refs/heads
 else
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Game Not Supported",
-    Text = "Supported Game:\nSteal a Brainrot\nPlants Vs Brainrots\nAdopt ME",
+    Text = "Supported Game:\nSteal a Brainrot\nPlants Vs Brainrots\nAdopt Me",
     Duration = 1e9
 })
-    game.Players.LocalPlayer:Kick("Game not Supported/nSupported Game:\nSteal a Brainrot\nPlants Vs Brainrots\nAdopt Me")
+    game.Players.LocalPlayer:Kick("Game not Supported")
 end
