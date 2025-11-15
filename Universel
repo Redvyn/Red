@@ -10,5 +10,5 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "Supported Game:\nSteal a Brainrot\nPlants Vs Brainrots\nAdopt ME",
     Duration = 1e9
 })
-    game.Players.LocalPlayer:Kick("Game not Supported")
+    game.Players.LocalPlayer:Kick("Game not Supported/nSupported Game:\nSteal a Brainrot\nPlants Vs Brainrots\nAdopt Me")
 end
